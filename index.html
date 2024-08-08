@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Sinha</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon_io/favicon.ico">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo"><span class="single-letter">A</span>ditya <span class="single-letter">S</span>inha</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Aditya Sinha</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/self.jpg" class="myImage" alt="Aditya Sinha profile picture" />
+    </div>
+    <div class="section__text introductory-container">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="fullName"><span class="singleLetter">A</span>ditya <span>S</span>inha</h1>
+      <p class="section__text__p2">FullStack Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('#')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/aditya-sinha-1952172a0/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/dev-adityasinha'" />
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">My</p>
+    <h1 class="title">Skills</h1>
+
+    <div class="details-container skills-container">
+      <div class="skills-table">
+        <img class="skills-image" src="./assets/htmlicon.png" alt="">
+        <h4>HTML</h4>
+      </div>
+      <div class="skills-table">
+        <img class="skills-image" src="./assets/jsicon.png" alt="">
+        <h4>JavaScript</h4>
+      </div>
+      <div class="skills-table">
+        <img class="skills-image" src="./assets/nodejs.jpeg" alt="">
+        <h4>NodeJs</h4>
+      </div>
+      <div class="skills-table">
+        <img class="skills-image" src="./assets/typescript.png" alt="">
+        <h4>TypeScript</h4>
+      </div>
+      <div class="skills-table">
+        <img class="skills-image" src="./assets/cssicon.jpeg" alt="">
+        <h4>CSS</h4>
+      </div>
+      <div class="skills-table">
+        <img class="skills-image" src="./assets/reacticon.png" alt="">
+        <h4>React</h4>
+      </div>
+      <div class="skills-table">
+        <img class="skills-image" src="./assets/expressjs.png" alt="">
+        <h4>Express</h4>
+      </div>
+      <div class="skills-table">
+        <img class="skills-image" src="./assets/mongoDbicon.png" alt="">
+        <h4>MongoDb</h4>
+      </div>
+      <div class="skills-table">
+        <img class="skills-image" src="./assets/nextjs.png" alt="">
+        <h4>NextJs</h4>
+      </div>
+      <div class="skills-table">
+        <img class="skills-image" src="./assets/github.png" alt="">
+        <h4>Github</h4>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/workinprogress.jpg" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project One</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/workinprogress.jpg" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/workinprogress.jpg" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:heis.adityasinha@gmail.com">Gmail</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/aditya-sinha-1952172a0/">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/xicon.png" alt="Twitter icon" class="icon contact-icon" />
+        <p><a href="https://x.com/heyadityasinha">X</a></p>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <p>Copyright &#169; 2024 Aditya Sinha. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
