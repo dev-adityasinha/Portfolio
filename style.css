@@ -388,7 +388,10 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
-  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
 }
 
 .color-container {
@@ -398,8 +401,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 }
 
 
